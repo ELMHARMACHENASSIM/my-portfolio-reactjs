@@ -14,16 +14,12 @@ export const App = () => {
       <Header />
       <Routes>
         <Route path="/my-portfolio-reactjs*" element={<Error />} />
-        <Route path="/my-portfolio-reactjs" element={<Home />} />
+        <Route path="/my-portfolio-reactjs/" element={<Home />} />
         <Route path="/my-portfolio-reactjs/about" element={<About />} />
         <Route path="/my-portfolio-reactjs/skills" element={<Skills />} />
         <Route path="/my-portfolio-reactjs/works" element={<Works />} />
         <Route path="/my-portfolio-reactjs/contact-me" element={<Contact />} />
       </Routes>
-      <About />
-      <Skills />
-      <Works />
-      <Contact />
     </>
   );
 };

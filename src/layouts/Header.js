@@ -46,50 +46,50 @@ const Header = () => {
           </div>
           <ul className="navbar-links">
             <li>
-              <NavLink to={"/"} className="navlink">
-                <FontAwesomeIcon icon={faHouse} />
+              <NavLink to={"/my-portfolio-reactjs/"} className="navlink">
+                <FontAwesomeIcon icon={faHouse} className="icon-menu"/>
                 <span>Home</span>
               </NavLink>
             </li>
             <li>
               <NavLink to={"/about"} className="navlink">
-                <FontAwesomeIcon icon={faCircleInfo} />
+                <FontAwesomeIcon icon={faCircleInfo} className="icon-menu"/>
                 <span>About</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/skills"} className="navlink">
-                <FontAwesomeIcon icon={faFile} />
+              <NavLink to={"/resume"} className="navlink">
+                <FontAwesomeIcon icon={faFile} className="icon-menu"/>
                 <span>Resume</span>
               </NavLink>
             </li>
             <li>
               <NavLink to={"/skills"} className="navlink">
-                <FontAwesomeIcon icon={faSquarePollVertical} />
+                <FontAwesomeIcon icon={faSquarePollVertical} className="icon-menu"/>
                 <span>Skills</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/skills"} className="navlink">
-                <FontAwesomeIcon icon={faHardDrive} />
+              <NavLink to={"/services"} className="navlink">
+                <FontAwesomeIcon icon={faHardDrive} className="icon-menu"/>
                 <span>Services</span>
               </NavLink>
             </li>
             <li>
               <NavLink to={"/works"} className="navlink">
-                <FontAwesomeIcon icon={faBriefcase} />
+                <FontAwesomeIcon icon={faBriefcase} className="icon-menu"/>
                 <span>Works</span>
               </NavLink>
             </li>
             <li>
               <NavLink to={"/contact-me"} className="navlink">
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faEnvelope} className="icon-menu"/>
                 <span>Contact Me</span>
               </NavLink>
             </li>
           </ul>
           <div className="btmnav">
-            <p>ELMHARMACHE NASSIM .Copyright © 2023. CASABLANCA MOROCCO </p>
+            <p>ELMHARMACHE NASSIM .Copyright © 2023. Casablanca, Morocco </p>
           </div>
         </div>
       </header>
