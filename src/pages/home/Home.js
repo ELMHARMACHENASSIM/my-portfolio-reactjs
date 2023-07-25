@@ -18,7 +18,7 @@ const Home = () => {
     <div className="info-div">
         <h1>hello,</h1>
         <h1>May name is <span>Nassim</span></h1>
-        <h2>im,</h2>
+        <h2>im</h2>
       </div>
     </section>
 
