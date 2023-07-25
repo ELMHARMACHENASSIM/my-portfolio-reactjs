@@ -1,13 +1,51 @@
-.section-home{
-    background-color: #535151;
-    position: absolute;
-    right: 0;
-    filter: blur(5px);
+@font-face {
+  font-family: code;
+  src: url(../../../assets/fonts/BergenMono-Regular.otf);
 }
-.info-div{
-    width: 100%;
-    height: 100%;
+.section-one {
+  width: calc(100% - 300px);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.section-home {
+  width: 100%;
+  height: 100%;
+  background-color: #535151;
+  filter: blur(3px);
+  opacity: 0.8;
+}
+.info-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 50px;
+  font-family: code;
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+    span {
+      text-decoration: underline;
+      color: $main-blue;
+      font-weight: 300;
+    }
+  }
+
+  h2 {
+    font-size: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    font-weight: 300;
+  }
+  .typewriter {
+    text-decoration: underline;
+    color: $main-blue;
+    font-weight: 300;
+  }
 }

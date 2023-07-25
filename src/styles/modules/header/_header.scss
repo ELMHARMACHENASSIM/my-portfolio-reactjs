@@ -3,6 +3,7 @@ header {
   height: 100vh;
   background-color: black;
   position: fixed;
+  z-index: 100;
 
   .content {
     width: 80%;
@@ -97,11 +98,7 @@ header {
         justify-content: start;
         align-items: center;
         width: 100%;
-<<<<<<< HEAD
         height: 45px;   
-=======
-        height: 50px;
->>>>>>> gh-pages
         padding: 10px;
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
