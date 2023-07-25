@@ -15,6 +15,7 @@ export const App = () => {
     <>
       <Header />
       <Routes>
+<<<<<<< HEAD
         <Route path="*" element={<Error />} />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -30,6 +31,15 @@ export const App = () => {
       <Services />
       <Works />
       <Contact />
+=======
+        <Route path="/my-portfolio-reactjs*" element={<Error />} />
+        <Route path="/my-portfolio-reactjs/" element={<Home />} />
+        <Route path="/my-portfolio-reactjs/about" element={<About />} />
+        <Route path="/my-portfolio-reactjs/skills" element={<Skills />} />
+        <Route path="/my-portfolio-reactjs/works" element={<Works />} />
+        <Route path="/my-portfolio-reactjs/contact-me" element={<Contact />} />
+      </Routes>
+>>>>>>> gh-pages
     </>
   );
 };
